@@ -1,0 +1,36 @@
+
+<div class="row">
+{{#carousel-container transitionInterval=400}}
+{{#carousel-body}}
+   <div class="col-xs-1">
+   {{#carousel-arrow direction="left" tagName="button"}}
+   <span class="glyphicon glyphicon-chevron-left"></span>
+   {{/carousel-arrow}}
+  </div>
+		
+		<div class="col-xs-10">
+  
+         {{#carousel-item}}
+        <div class="image">
+  			<img src="/assets/images/book.jpg">
+        </div>
+    {{/carousel-item}}
+    {{#carousel-item}}
+     <div class="image">
+  		<img src="/assets/images/fashion.jpg">
+  	  </div>
+    	{{/carousel-item}}
+   </div>
+
+
+
+    <div class="col-xs-1">{{#carousel-arrow direction="right" tagName="button"}}
+    	<span class="glyphicon glyphicon-chevron-right"></span>
+  		{{/carousel-arrow}}
+    </div>
+
+
+
+    {{/carousel-body}}
+    {{/carousel-container}}
+</div>

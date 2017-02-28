@@ -1,0 +1,60 @@
+footer {
+    position: fixed;
+    height: 60px;
+    bottom: 0;
+    width: 100%;
+    background: linear-gradient(-90deg, red, yellow);
+},
+.dropdown{
+	line-height: 2.5;
+}
+.nav-bar{
+	line-height: 2;
+	background: linear-gradient(-90deg, red, yellow); 
+}
+.app-header{
+	font-size: 30px;
+	margin-left: 6px;
+
+}
+.app-cat{
+    font-size: 20px;
+    line-height: 3.20;
+ 
+    z-index: 1000;
+      
+}
+.app-about{
+    float: right;
+ 	line-height: 5;
+}
+.app-contact{ 
+	float: right;
+	line-height: 5;
+}
+.dropdown-content{
+	display:none;
+    position: absolute;
+    z-index: 1000;
+    background:#E5B619;
+    width: 150px; 
+    line-height: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+.dropdown-content a:hover {
+	background-color: #f1f1f1;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.image{
+  width: 100%;
+}
